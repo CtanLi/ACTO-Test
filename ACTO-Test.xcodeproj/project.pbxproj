@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462C4E5C2378647100999A9D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C4E5B2378647100999A9D /* NetworkService.swift */; };
+		462C4E5E237869B800999A9D /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C4E5D237869B800999A9D /* Albums.swift */; };
+		462C4E602378722500999A9D /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C4E5F2378722500999A9D /* Photos.swift */; };
+		463B047423780A3B00F0C9DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B047323780A3B00F0C9DC /* AppDelegate.swift */; };
+		463B047623780A3B00F0C9DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B047523780A3B00F0C9DC /* SceneDelegate.swift */; };
+		463B047823780A3B00F0C9DC /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B047723780A3B00F0C9DC /* UsersController.swift */; };
+		463B047B23780A3B00F0C9DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463B047923780A3B00F0C9DC /* Main.storyboard */; };
+		463B047E23780A3B00F0C9DC /* ACTO_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 463B047C23780A3B00F0C9DC /* ACTO_Test.xcdatamodeld */; };
+		463B048023780A3C00F0C9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463B047F23780A3C00F0C9DC /* Assets.xcassets */; };
+		463B048323780A3C00F0C9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463B048123780A3C00F0C9DC /* LaunchScreen.storyboard */; };
+		463B048E23780A3D00F0C9DC /* ACTO_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B048D23780A3D00F0C9DC /* ACTO_TestTests.swift */; };
+		463B049923780A3D00F0C9DC /* ACTO_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B049823780A3D00F0C9DC /* ACTO_TestUITests.swift */; };
+		463B04A723780CE400F0C9DC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04A623780CE400F0C9DC /* APIService.swift */; };
+		463B04A923780D2300F0C9DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04A823780D2300F0C9DC /* Constants.swift */; };
+		463B04AE2378155B00F0C9DC /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04AD2378155B00F0C9DC /* UsersCell.swift */; };
+		463B04B0237825E100F0C9DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04AF237825E100F0C9DC /* Extension.swift */; };
+		463B04B623782D4400F0C9DC /* AlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04B523782D4400F0C9DC /* AlbumsCell.swift */; };
+		463B04B823782D6100F0C9DC /* AlbumsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04B723782D6100F0C9DC /* AlbumsController.swift */; };
+		463B04BC23783AED00F0C9DC /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04BB23783AED00F0C9DC /* PhotosController.swift */; };
+		463B04BE23783C8700F0C9DC /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04BD23783C8700F0C9DC /* PhotosCell.swift */; };
+		463B04C323784C7500F0C9DC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04C223784C7400F0C9DC /* Users.swift */; };
+		463B04C523784E9D00F0C9DC /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B04C423784E9D00F0C9DC /* PersistanceService.swift */; };
+		65F2E955FD79F71840B0AFEC /* Pods_ACTO_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBC7A092BBBC90ACFAFFC18 /* Pods_ACTO_TestUITests.framework */; };
+		A2954187A65E1E578FDD62FE /* Pods_ACTO_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9211FCAC7817F6591680C70E /* Pods_ACTO_TestTests.framework */; };
+		E70E3C9D788523743ECAD32A /* Pods_ACTO_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB17E22F580730DFE0FEDCA /* Pods_ACTO_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463B048A23780A3D00F0C9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463B046823780A3B00F0C9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463B046F23780A3B00F0C9DC;
+			remoteInfo = "ACTO-Test";
+		};
+		463B049523780A3D00F0C9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463B046823780A3B00F0C9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463B046F23780A3B00F0C9DC;
+			remoteInfo = "ACTO-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109D90319ADC48930F50E9C2 /* Pods-ACTO-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-TestTests.release.xcconfig"; path = "Target Support Files/Pods-ACTO-TestTests/Pods-ACTO-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		462C4E5B2378647100999A9D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		462C4E5D237869B800999A9D /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		462C4E5F2378722500999A9D /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		463B047023780A3B00F0C9DC /* ACTO-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACTO-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B047323780A3B00F0C9DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		463B047523780A3B00F0C9DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		463B047723780A3B00F0C9DC /* UsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersController.swift; sourceTree = "<group>"; };
+		463B047A23780A3B00F0C9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463B047D23780A3B00F0C9DC /* ACTO_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACTO_Test.xcdatamodel; sourceTree = "<group>"; };
+		463B047F23780A3C00F0C9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463B048223780A3C00F0C9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		463B048423780A3C00F0C9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463B048923780A3D00F0C9DC /* ACTO-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACTO-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B048D23780A3D00F0C9DC /* ACTO_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTO_TestTests.swift; sourceTree = "<group>"; };
+		463B048F23780A3D00F0C9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463B049423780A3D00F0C9DC /* ACTO-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACTO-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B049823780A3D00F0C9DC /* ACTO_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTO_TestUITests.swift; sourceTree = "<group>"; };
+		463B049A23780A3D00F0C9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463B04A623780CE400F0C9DC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		463B04A823780D2300F0C9DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		463B04AD2378155B00F0C9DC /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		463B04AF237825E100F0C9DC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		463B04B523782D4400F0C9DC /* AlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCell.swift; sourceTree = "<group>"; };
+		463B04B723782D6100F0C9DC /* AlbumsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsController.swift; sourceTree = "<group>"; };
+		463B04BB23783AED00F0C9DC /* PhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosController.swift; sourceTree = "<group>"; };
+		463B04BD23783C8700F0C9DC /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		463B04C223784C7400F0C9DC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		463B04C423784E9D00F0C9DC /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		4BBC7A092BBBC90ACFAFFC18 /* Pods_ACTO_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACTO_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BC85EBD7E9F96AE2B21377 /* Pods-ACTO-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACTO-TestUITests/Pods-ACTO-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61905B1BB893B46FDD7D543F /* Pods-ACTO-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-Test.release.xcconfig"; path = "Target Support Files/Pods-ACTO-Test/Pods-ACTO-Test.release.xcconfig"; sourceTree = "<group>"; };
+		6876E11CF85B74CA3879FDD8 /* Pods-ACTO-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-ACTO-TestUITests/Pods-ACTO-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FB17E22F580730DFE0FEDCA /* Pods_ACTO_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACTO_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E625B658413E225E39C226 /* Pods-ACTO-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-ACTO-TestTests/Pods-ACTO-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9211FCAC7817F6591680C70E /* Pods_ACTO_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACTO_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32F71BF819D6742BD471253 /* Pods-ACTO-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTO-Test.debug.xcconfig"; path = "Target Support Files/Pods-ACTO-Test/Pods-ACTO-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463B046D23780A3B00F0C9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70E3C9D788523743ECAD32A /* Pods_ACTO_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B048623780A3D00F0C9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2954187A65E1E578FDD62FE /* Pods_ACTO_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B049123780A3D00F0C9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F2E955FD79F71840B0AFEC /* Pods_ACTO_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462C4E612378811D00999A9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				463B04C423784E9D00F0C9DC /* PersistanceService.swift */,
+				462C4E5B2378647100999A9D /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		463B046723780A3B00F0C9DC = {
+			isa = PBXGroup;
+			children = (
+				463B047223780A3B00F0C9DC /* ACTO-Test */,
+				463B048C23780A3D00F0C9DC /* ACTO-TestTests */,
+				463B049723780A3D00F0C9DC /* ACTO-TestUITests */,
+				463B047123780A3B00F0C9DC /* Products */,
+				58DAEFBA473DCA2D0D4D4F3D /* Pods */,
+				6D1614032F1E5980DDE96064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		463B047123780A3B00F0C9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463B047023780A3B00F0C9DC /* ACTO-Test.app */,
+				463B048923780A3D00F0C9DC /* ACTO-TestTests.xctest */,
+				463B049423780A3D00F0C9DC /* ACTO-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463B047223780A3B00F0C9DC /* ACTO-Test */ = {
+			isa = PBXGroup;
+			children = (
+				462C4E612378811D00999A9D /* Service */,
+				463B04B123782AD600F0C9DC /* APIService */,
+				463B04AC2378153A00F0C9DC /* Controllers */,
+				463B04C12378466500F0C9DC /* Views */,
+				463B04B323782AF500F0C9DC /* Models */,
+				463B04B423782B0A00F0C9DC /* Extension */,
+				463B04B223782AE900F0C9DC /* Constant */,
+				463B047323780A3B00F0C9DC /* AppDelegate.swift */,
+				463B047523780A3B00F0C9DC /* SceneDelegate.swift */,
+				463B047923780A3B00F0C9DC /* Main.storyboard */,
+				463B047F23780A3C00F0C9DC /* Assets.xcassets */,
+				463B048123780A3C00F0C9DC /* LaunchScreen.storyboard */,
+				463B048423780A3C00F0C9DC /* Info.plist */,
+				463B047C23780A3B00F0C9DC /* ACTO_Test.xcdatamodeld */,
+			);
+			path = "ACTO-Test";
+			sourceTree = "<group>";
+		};
+		463B048C23780A3D00F0C9DC /* ACTO-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				463B048D23780A3D00F0C9DC /* ACTO_TestTests.swift */,
+				463B048F23780A3D00F0C9DC /* Info.plist */,
+			);
+			path = "ACTO-TestTests";
+			sourceTree = "<group>";
+		};
+		463B049723780A3D00F0C9DC /* ACTO-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				463B049823780A3D00F0C9DC /* ACTO_TestUITests.swift */,
+				463B049A23780A3D00F0C9DC /* Info.plist */,
+			);
+			path = "ACTO-TestUITests";
+			sourceTree = "<group>";
+		};
+		463B04AC2378153A00F0C9DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				463B047723780A3B00F0C9DC /* UsersController.swift */,
+				463B04B723782D6100F0C9DC /* AlbumsController.swift */,
+				463B04BB23783AED00F0C9DC /* PhotosController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		463B04B123782AD600F0C9DC /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				463B04A623780CE400F0C9DC /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		463B04B223782AE900F0C9DC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				463B04A823780D2300F0C9DC /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		463B04B323782AF500F0C9DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				463B04C223784C7400F0C9DC /* Users.swift */,
+				462C4E5D237869B800999A9D /* Albums.swift */,
+				462C4E5F2378722500999A9D /* Photos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		463B04B423782B0A00F0C9DC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				463B04AF237825E100F0C9DC /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		463B04C12378466500F0C9DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				463B04AD2378155B00F0C9DC /* UsersCell.swift */,
+				463B04B523782D4400F0C9DC /* AlbumsCell.swift */,
+				463B04BD23783C8700F0C9DC /* PhotosCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58DAEFBA473DCA2D0D4D4F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32F71BF819D6742BD471253 /* Pods-ACTO-Test.debug.xcconfig */,
+				61905B1BB893B46FDD7D543F /* Pods-ACTO-Test.release.xcconfig */,
+				90E625B658413E225E39C226 /* Pods-ACTO-TestTests.debug.xcconfig */,
+				109D90319ADC48930F50E9C2 /* Pods-ACTO-TestTests.release.xcconfig */,
+				58BC85EBD7E9F96AE2B21377 /* Pods-ACTO-TestUITests.debug.xcconfig */,
+				6876E11CF85B74CA3879FDD8 /* Pods-ACTO-TestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D1614032F1E5980DDE96064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB17E22F580730DFE0FEDCA /* Pods_ACTO_Test.framework */,
+				9211FCAC7817F6591680C70E /* Pods_ACTO_TestTests.framework */,
+				4BBC7A092BBBC90ACFAFFC18 /* Pods_ACTO_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463B046F23780A3B00F0C9DC /* ACTO-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B049D23780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-Test" */;
+			buildPhases = (
+				21AA4E1D56E9DDE2F2F5CC69 /* [CP] Check Pods Manifest.lock */,
+				463B046C23780A3B00F0C9DC /* Sources */,
+				463B046D23780A3B00F0C9DC /* Frameworks */,
+				463B046E23780A3B00F0C9DC /* Resources */,
+				D5008F9B7ED766B010445163 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACTO-Test";
+			productName = "ACTO-Test";
+			productReference = 463B047023780A3B00F0C9DC /* ACTO-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		463B048823780A3D00F0C9DC /* ACTO-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B04A023780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-TestTests" */;
+			buildPhases = (
+				4EF54F3936D472E2F4A15A3A /* [CP] Check Pods Manifest.lock */,
+				463B048523780A3D00F0C9DC /* Sources */,
+				463B048623780A3D00F0C9DC /* Frameworks */,
+				463B048723780A3D00F0C9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463B048B23780A3D00F0C9DC /* PBXTargetDependency */,
+			);
+			name = "ACTO-TestTests";
+			productName = "ACTO-TestTests";
+			productReference = 463B048923780A3D00F0C9DC /* ACTO-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		463B049323780A3D00F0C9DC /* ACTO-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B04A323780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-TestUITests" */;
+			buildPhases = (
+				479A84C22FD3FD32D2AEF34A /* [CP] Check Pods Manifest.lock */,
+				463B049023780A3D00F0C9DC /* Sources */,
+				463B049123780A3D00F0C9DC /* Frameworks */,
+				463B049223780A3D00F0C9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463B049623780A3D00F0C9DC /* PBXTargetDependency */,
+			);
+			name = "ACTO-TestUITests";
+			productName = "ACTO-TestUITests";
+			productReference = 463B049423780A3D00F0C9DC /* ACTO-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463B046823780A3B00F0C9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "ACTO-Test";
+				TargetAttributes = {
+					463B046F23780A3B00F0C9DC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					463B048823780A3D00F0C9DC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 463B046F23780A3B00F0C9DC;
+					};
+					463B049323780A3D00F0C9DC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 463B046F23780A3B00F0C9DC;
+					};
+				};
+			};
+			buildConfigurationList = 463B046B23780A3B00F0C9DC /* Build configuration list for PBXProject "ACTO-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463B046723780A3B00F0C9DC;
+			productRefGroup = 463B047123780A3B00F0C9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463B046F23780A3B00F0C9DC /* ACTO-Test */,
+				463B048823780A3D00F0C9DC /* ACTO-TestTests */,
+				463B049323780A3D00F0C9DC /* ACTO-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463B046E23780A3B00F0C9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B048323780A3C00F0C9DC /* LaunchScreen.storyboard in Resources */,
+				463B048023780A3C00F0C9DC /* Assets.xcassets in Resources */,
+				463B047B23780A3B00F0C9DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B048723780A3D00F0C9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B049223780A3D00F0C9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21AA4E1D56E9DDE2F2F5CC69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACTO-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		479A84C22FD3FD32D2AEF34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACTO-TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF54F3936D472E2F4A15A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACTO-TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5008F9B7ED766B010445163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACTO-Test/Pods-ACTO-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACTO-Test/Pods-ACTO-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACTO-Test/Pods-ACTO-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463B046C23780A3B00F0C9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B04B0237825E100F0C9DC /* Extension.swift in Sources */,
+				462C4E5E237869B800999A9D /* Albums.swift in Sources */,
+				463B047E23780A3B00F0C9DC /* ACTO_Test.xcdatamodeld in Sources */,
+				463B04B823782D6100F0C9DC /* AlbumsController.swift in Sources */,
+				462C4E5C2378647100999A9D /* NetworkService.swift in Sources */,
+				463B04A723780CE400F0C9DC /* APIService.swift in Sources */,
+				463B047823780A3B00F0C9DC /* UsersController.swift in Sources */,
+				462C4E602378722500999A9D /* Photos.swift in Sources */,
+				463B047423780A3B00F0C9DC /* AppDelegate.swift in Sources */,
+				463B04B623782D4400F0C9DC /* AlbumsCell.swift in Sources */,
+				463B04C323784C7500F0C9DC /* Users.swift in Sources */,
+				463B04AE2378155B00F0C9DC /* UsersCell.swift in Sources */,
+				463B047623780A3B00F0C9DC /* SceneDelegate.swift in Sources */,
+				463B04BE23783C8700F0C9DC /* PhotosCell.swift in Sources */,
+				463B04BC23783AED00F0C9DC /* PhotosController.swift in Sources */,
+				463B04C523784E9D00F0C9DC /* PersistanceService.swift in Sources */,
+				463B04A923780D2300F0C9DC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B048523780A3D00F0C9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B048E23780A3D00F0C9DC /* ACTO_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B049023780A3D00F0C9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B049923780A3D00F0C9DC /* ACTO_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463B048B23780A3D00F0C9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463B046F23780A3B00F0C9DC /* ACTO-Test */;
+			targetProxy = 463B048A23780A3D00F0C9DC /* PBXContainerItemProxy */;
+		};
+		463B049623780A3D00F0C9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463B046F23780A3B00F0C9DC /* ACTO-Test */;
+			targetProxy = 463B049523780A3D00F0C9DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		463B047923780A3B00F0C9DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463B047A23780A3B00F0C9DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		463B048123780A3C00F0C9DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463B048223780A3C00F0C9DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463B049B23780A3D00F0C9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		463B049C23780A3D00F0C9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463B049E23780A3D00F0C9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32F71BF819D6742BD471253 /* Pods-ACTO-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ACTO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		463B049F23780A3D00F0C9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61905B1BB893B46FDD7D543F /* Pods-ACTO-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ACTO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		463B04A123780A3D00F0C9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E625B658413E225E39C226 /* Pods-ACTO-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACTO.com.ACTO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACTO-Test.app/ACTO-Test";
+			};
+			name = Debug;
+		};
+		463B04A223780A3D00F0C9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109D90319ADC48930F50E9C2 /* Pods-ACTO-TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACTO.com.ACTO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACTO-Test.app/ACTO-Test";
+			};
+			name = Release;
+		};
+		463B04A423780A3D00F0C9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BC85EBD7E9F96AE2B21377 /* Pods-ACTO-TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACTO.com.ACTO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ACTO-Test";
+			};
+			name = Debug;
+		};
+		463B04A523780A3D00F0C9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6876E11CF85B74CA3879FDD8 /* Pods-ACTO-TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH8GHTGE4A;
+				INFOPLIST_FILE = "ACTO-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACTO.com.ACTO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ACTO-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463B046B23780A3B00F0C9DC /* Build configuration list for PBXProject "ACTO-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B049B23780A3D00F0C9DC /* Debug */,
+				463B049C23780A3D00F0C9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B049D23780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B049E23780A3D00F0C9DC /* Debug */,
+				463B049F23780A3D00F0C9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B04A023780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B04A123780A3D00F0C9DC /* Debug */,
+				463B04A223780A3D00F0C9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B04A323780A3D00F0C9DC /* Build configuration list for PBXNativeTarget "ACTO-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B04A423780A3D00F0C9DC /* Debug */,
+				463B04A523780A3D00F0C9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		463B047C23780A3B00F0C9DC /* ACTO_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				463B047D23780A3B00F0C9DC /* ACTO_Test.xcdatamodel */,
+			);
+			currentVersion = 463B047D23780A3B00F0C9DC /* ACTO_Test.xcdatamodel */;
+			path = ACTO_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 463B046823780A3B00F0C9DC /* Project object */;
+}
